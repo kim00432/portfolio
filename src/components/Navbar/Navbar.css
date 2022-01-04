@@ -1,0 +1,21 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+a {
+  padding: 0 1rem;
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: orange;
+  font-style: bold;
+}
+
+.logo img {
+  width: 70px;
+}
