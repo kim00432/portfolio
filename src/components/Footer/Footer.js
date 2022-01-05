@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function Projects() {
+export default function Footer() {
     return (
         <div>
-            Projects
+            Copyright © 2022 | Yoona Kim
         </div>
     )
 }
