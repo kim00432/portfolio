@@ -2,9 +2,10 @@ html {
   scroll-behavior: smooth;
 }
 
-.App {
+.app {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: orange;
+  background-color: #f8f8f8;
+  min-height: 100vh;
 }
