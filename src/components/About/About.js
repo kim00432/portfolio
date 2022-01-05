@@ -1,10 +1,30 @@
 import React from 'react'
-import Navbar from '../Navbar/Navbar'
 
 export default function About() {
     return (
         <div>
+        <div>
             This is About
         </div>
+         <div>
+         This is About
+     </div>
+      <div>
+      This is About
+  </div>
+   <div>
+   This is About
+</div>
+ <div>
+ This is About
+</div>
+ <div>
+ This is About
+</div>
+ <div>
+ This is About
+</div>
+        </div>
+
     )
 }

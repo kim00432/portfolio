@@ -22,11 +22,11 @@ export default function Header() {
                     ]}
                 /> */}
             </div>
-            <div class="socialMedia">
+            <div className="socialMedia">
                 <ul>
-                    <li><a href="https://github.com/kim00432" target="_blank" className='socialMedia-Link'><FaGithub /></a></li>
-                    <li><a href="https://www.instagram.com/__yoonak/" target="_blank" className='socialMedia-Link'><FaInstagram /></a></li>
-                    <li><a href="https://www.linkedin.com/in/yoona-k" target="_blank" className='socialMedia-Link'><FaLinkedin /></a></li>
+                    <a href="https://github.com/kim00432" target="_blank" className='socialMedia_link'><li><FaGithub /></li></a>
+                    <a href="https://www.instagram.com/__yoonak/" target="_blank" className='socialMedia_link'><li><FaInstagram /></li></a>
+                    <a href="https://www.linkedin.com/in/yoona-k" target="_blank" className='socialMedia_link'><li><FaLinkedin /></li></a>
                 </ul>
             </div>
     </div>

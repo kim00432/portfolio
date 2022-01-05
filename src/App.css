@@ -3,10 +3,8 @@ html {
 }
 
 .App {
-  min-height: 100vh;
-  width: 70%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 2rem;
+  background-color: orange;
 }
