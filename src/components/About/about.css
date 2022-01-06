@@ -1,0 +1,125 @@
+/* About Me Terminal Window */
+
+.about {
+  text-align: left;
+  font-weight: 400;
+  margin-top: 30px;
+  margin: 0;
+  width: 100%;
+}
+
+.terminal-header {
+  background-color: #b1acab60;
+  padding: 7px 20px 5px 20px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  border-radius: 10px 10px 0 0;
+}
+
+.terminal-header .title {
+  color: rgb(12, 12, 12);
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.title,
+.right-side-buttons {
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+.right-side-buttons {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 60px;
+  z-index: 10;
+}
+
+.close,
+.minimize,
+.full {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+}
+
+.about .title img {
+  width: 20px;
+  margin-right: 8px;
+}
+
+.about .title {
+  display: flex;
+  flex-direction: row;
+}
+
+.close {
+  background-color: #f45550;
+  border: 1px solid #f33c36;
+}
+
+.minimize {
+  background-color: #f5b73d;
+  border: 1px solid #f2aa19;
+}
+
+.full {
+  background-color: #30c145;
+  border: 1px solid #13be2c;
+}
+
+.terminal-window {
+  background-color: #222428;
+  padding: 20px;
+  border-radius: 0 0 10px 10px;
+  letter-spacing: 0.01em;
+}
+
+.statement {
+  margin-bottom: 30px;
+}
+
+#top.statement {
+  margin-top: 10px;
+}
+
+#bottom.statement {
+  margin-bottom: 0;
+}
+
+#bottom.statement .input span {
+  border-left: 0.8em solid;
+  animation: carat 1s steps(1) infinite;
+}
+
+.input {
+  color: #eff2f1;
+  margin-bottom: 5px;
+}
+
+.return {
+  color: #fcca73;
+}
+
+.return a {
+  color: #47c2ff;
+  text-decoration: none;
+}
+
+.return a:hover {
+  color: #ffa2bb;
+  transition: all 0.2s ease-out;
+}
+
+@keyframes carat {
+  50% {
+    border-color: transparent;
+  }
+}

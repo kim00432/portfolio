@@ -1,4 +1,4 @@
-.navigation {
+.navbar {
   display: flex;
   flex-direction: row;
   position: fixed;
@@ -8,12 +8,6 @@
   align-items: center;
   background-color: #f8f8f8;
   padding: 1rem 0;
-}
-
-.navigation.active {
-  position: fixed;
-  z-index: 1000;
-  width: 100%;
 }
 
 li {
@@ -46,12 +40,12 @@ a:hover {
 }
 
 .logo img {
-  width: 60px;
+  width: 50px;
   margin-left: -10px;
 }
 
 @media only screen and (max-width: 540px) {
-  .navigation {
+  .navbar {
     width: 90%;
   }
   .toggle_menu {

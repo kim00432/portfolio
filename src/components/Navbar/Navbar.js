@@ -7,7 +7,7 @@ export default function Navbar() {
     const [show, setShow] = useState(false)
 
     return (
-        <div className="navigation">
+        <div className="navbar">
             <div className="logo">
                 <a href="/"><img src={logo} alt="logo"/></a>
             </div>
@@ -31,7 +31,7 @@ export default function Navbar() {
                 xmlns="http://www.w3.org/2000/svg"
                 width="30"
                 height="30"
-                fill="black"
+                fill={show? "white" : "black"}
                 className="bi bi-justify-right"
                 viewBox="0 0 16 16"
                 >

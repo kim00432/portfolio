@@ -1,8 +1,9 @@
 .header {
-  height: 50vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
+  height: 100%;
+  padding-bottom: 2rem;
 }
 
 .name {
