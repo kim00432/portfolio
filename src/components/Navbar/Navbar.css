@@ -5,10 +5,10 @@
   flex-direction: row;
   position: fixed;
   justify-content: center;
+  z-index: 1000;
 }
 
 .navbar_container {
-  z-index: 1000;
   width: 85%;
   height: 10vh;
   background-color: #f8f8f8;

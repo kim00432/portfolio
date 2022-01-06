@@ -11,7 +11,7 @@ export default function About() {
             <div className="full"></div>
             </div>
             <div className="title">
-            <div className="title_text">@About me</div>
+                <div className="title_text">@About me</div>
             </div>
         </div>
         <div className="terminal-window">

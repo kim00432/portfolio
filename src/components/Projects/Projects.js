@@ -21,6 +21,7 @@ export default function Projects() {
                     return (
                     <div className="project_card" key={project.id}>
                         <img src={project.image} className="project_image"/>
+                        <img src={project.image2} className="project_image"/>
                         <div className="project_info">
                             <div className="project_title">{project.title}</div>
                             <div className="project_card_header">

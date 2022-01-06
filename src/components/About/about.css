@@ -31,11 +31,9 @@
   letter-spacing: 1px;
 }
 
-.title {
-  margin-left: -12px;
-}
-
 .right-side-buttons {
+  z-index: 1;
+  position: absolute;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
