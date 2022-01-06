@@ -9,3 +9,17 @@ html {
   background-color: #f8f8f8;
   min-height: 100vh;
 }
+
+/* section */
+.section_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.section_title {
+  font-size: 2rem;
+  text-align: center;
+  color: #086b9c;
+}

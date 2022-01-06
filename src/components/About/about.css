@@ -1,5 +1,4 @@
 /* About Me Terminal Window */
-
 .about {
   text-align: left;
   font-weight: 400;
@@ -32,14 +31,16 @@
   letter-spacing: 1px;
 }
 
+.title {
+  margin-left: -12px;
+}
+
 .right-side-buttons {
-  position: absolute;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   width: 60px;
-  z-index: 10;
 }
 
 .close,
@@ -95,7 +96,7 @@
 }
 
 #bottom.statement .input span {
-  border-left: 0.8em solid;
+  border-left: 0.5em solid;
   animation: carat 1s steps(1) infinite;
 }
 

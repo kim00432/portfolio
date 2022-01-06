@@ -1,12 +1,21 @@
 .navbar {
+  width: 100%;
+  background-color: #f8f8f8;
   display: flex;
   flex-direction: row;
   position: fixed;
+  justify-content: center;
+}
+
+.navbar_container {
   z-index: 1000;
-  width: 80%;
+  width: 85%;
+  height: 10vh;
+  background-color: #f8f8f8;
+  display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-color: #f8f8f8;
   padding: 1rem 0;
 }
 
@@ -21,7 +30,7 @@ li {
 ul.navbar_items {
   display: flex;
   flex-direction: row;
-  background-color: paleturquoise;
+  margin-left: -3rem;
 }
 
 ul.sidebar_items {
@@ -35,8 +44,8 @@ a {
 }
 
 a:hover {
-  color: orange;
-  font-style: bold;
+  color: #47c2ff;
+  font-weight: 600;
 }
 
 .logo img {
@@ -44,13 +53,19 @@ a:hover {
   margin-left: -10px;
 }
 
+.menu_icon {
+  font-size: 30px;
+}
+
 @media only screen and (max-width: 540px) {
   .navbar {
     width: 90%;
   }
+
   .toggle_menu {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     float: right;
     z-index: 1000;
     width: 100%;
@@ -65,7 +80,7 @@ a:hover {
   }
 
   ul.sidebar_items {
-    background-color: rgba(179, 9, 9, 0.911);
+    background-color: #086b9cec;
     color: white;
     position: fixed;
     flex-wrap: wrap;
@@ -90,6 +105,6 @@ a:hover {
   }
 
   .logo img {
-    width: 40px;
+    width: 35px;
   }
 }
