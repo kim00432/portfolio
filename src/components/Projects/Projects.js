@@ -20,8 +20,10 @@ export default function Projects() {
                 {data.map((project) => {
                     return (
                     <div className="project_card" key={project.id}>
-                        <img src={project.image} className="project_image"/>
-                        <img src={project.image2} className="project_image"/>
+                        <div className="project_images">
+                            <img src={project.image} className="project_image"/>
+                            <img src={project.image2} className="project_image"/>
+                        </div>
                         <div className="project_info">
                             <div className="project_title">{project.title}</div>
                             <div className="project_card_header">

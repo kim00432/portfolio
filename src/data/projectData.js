@@ -1,6 +1,8 @@
 import Project1 from "../img/screenshots/project1.png"
 import Project2 from "../img/screenshots/project2.png"
 import Project2_1 from "../img/screenshots/project2-1.png"
+import Project3 from "../img/screenshots/project3.png"
+import Project4 from "../img/screenshots/project4.png"
 
 export const ProjectData = [
     {
@@ -23,21 +25,20 @@ export const ProjectData = [
     },
     {
         id: 3,
-        title: "Weather Website",
-        description: "",
+        title: "Movie App",
+        description: "A simple Single Page Application using The MovieDB API. Users can search for the actor's name and then obtain the actors with the name as the result. Also, clicking on one of the actors displays the movie of the actor users clicked on.",
         techs: ["HTML", "CSS", "Javascript"],
-        demo: "https://kim00432.github.io/GetWeather/",
-        github: "https://github.com/kim00432/GetWeather",
-        image: Project1
+        demo: "https://yoona-simplespa.netlify.app/",
+        image: Project3
     },
     {
         id: 4,
-        title: "Weather Website",
-        description: "",
-        techs: ["HTML", "CSS", "Javascript"],
+        title: "EV's List",
+        description: "A react app using React plus Next.js to display a list of Electric vehicles",
+        techs: ["React", "Next.js"],
         demo: "https://kim00432.github.io/GetWeather/",
-        github: "https://github.com/kim00432/GetWeather",
-        image: Project1
+        github: "https://github.com/kim00432/Evs-list",
+        image: Project4
     },
 
 

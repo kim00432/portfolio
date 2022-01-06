@@ -39,15 +39,25 @@
   width: 100%;
 }
 
-.project_image {
+.project_images {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  flex-wrap: wrap;
   align-self: center;
-  width: 80%;
+  align-items: flex-start;
+  overflow-y: hidden;
+}
+
+.project_image {
+  width: 100%;
 }
 
 .project_title {
   color: #222428;
   font-size: 1.5rem;
   font-weight: 600;
+  margin-top: 1rem;
 }
 
 .project_links {
@@ -60,7 +70,7 @@
 }
 
 .link_button {
-  background-color: #086b9cec;
+  background-color: #01213188;
   color: white;
   margin-right: 10px;
   border-radius: 5px;
@@ -70,7 +80,7 @@
 }
 
 .link_button:hover {
-  background-color: #01213188;
+  background-color: #086b9cec;
   color: white;
 }
 
@@ -108,15 +118,15 @@ a.my_github:hover {
 }
 
 @media only screen and (max-width: 940px) {
-  .project_image {
-    width: 80%;
-  }
   .project_card_header {
     display: flex;
     flex-direction: column;
   }
   .project_techs {
     max-width: 100%;
+  }
+  .link_button {
+    margin-bottom: 5px;
   }
 }
 
@@ -133,9 +143,6 @@ a.my_github:hover {
   .project_card_header {
     display: flex;
     flex-direction: row-reverse;
-  }
-  .project_image {
-    width: 60%;
   }
 }
 
