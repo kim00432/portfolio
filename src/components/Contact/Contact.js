@@ -11,7 +11,7 @@ export default function Contact() {
             <div className="contact_container">
                 <div className="contact_inside_container">
                     <h1 className="contact_hi">Say Hi.</h1>
-                    <img src={Photo} alt="photo" className="photo" />
+                    <img src={Photo} alt="contact_photo" className="contact_photo" />
                 </div>
                 <div className="contact_inside_container2">
                     <div className="contact_email">isyoonakim@gmail.com</div>

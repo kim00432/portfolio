@@ -2,7 +2,7 @@
   justify-content: flex-end;
 }
 
-.photo {
+.contact_photo {
   width: 30vw;
   filter: grayscale(70%);
   object-fit: contain;
@@ -59,7 +59,7 @@
     margin-top: -5rem;
   }
 
-  .photo {
+  .contact_photo {
     width: 80vw;
   }
   .contact_email {

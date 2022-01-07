@@ -6,6 +6,7 @@
   position: fixed;
   justify-content: center;
   z-index: 1000;
+  padding: 0 1rem;
 }
 
 .navbar_container {
@@ -111,6 +112,6 @@ a:hover {
 
 @media only screen and (max-width: 340px) {
   .navbar {
-    width: 95%;
+    width: 100%;
   }
 }
