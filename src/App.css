@@ -8,19 +8,38 @@ html {
   align-items: center;
   background-color: #f8f8f8;
   min-height: 100vh;
+  width: 100%;
 }
 
 /* section */
+section {
+  margin: 4rem 0;
+}
+
 .section_header {
+  width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  align-items: baseline;
 }
 
 .section_title {
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 600;
   text-align: center;
   color: #086b9c;
+}
+
+.section_text {
+  text-align: center;
+}
+
+@media only screen and (max-width: 1017px) {
+  .section_header {
+    flex-direction: column;
+  }
+  .section_text {
+    text-align: left;
+  }
 }

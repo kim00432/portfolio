@@ -1,0 +1,17 @@
+.contact div.section_header {
+  justify-content: flex-end;
+}
+
+.hi {
+  font-size: 3rem;
+}
+
+.photo {
+  width: 400px;
+}
+
+.contact_text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

@@ -41,7 +41,7 @@
 
 .project_images {
   width: 100%;
-  height: 50vh;
+  height: 30vh;
   display: flex;
   flex-wrap: wrap;
   align-self: center;

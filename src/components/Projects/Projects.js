@@ -9,12 +9,11 @@ export default function Projects() {
     return (
         <div className="projects">
             <div className="section_header">
-                <hr className="section_line"></hr>
-                <label className="section_title">Projects</label>
-            </div>
-            <div className="section_text">
-                Here are the projects I have worked on.
-                Also you can take a look at my<a href="https://github.com/kim00432" className="my_github">GitHub</a>for more details.
+                <label className="section_title">PROJECTS</label>
+                <div className="section_text">
+                    Here are the projects I have worked on.
+                    Also you can find more on my<a href="https://github.com/kim00432" className="my_github">GitHub</a>.
+                </div>
             </div>
             <div className="project_card_container">
                 {data.map((project) => {
@@ -22,7 +21,6 @@ export default function Projects() {
                     <div className="project_card" key={project.id}>
                         <div className="project_images">
                             <img src={project.image} className="project_image"/>
-                            <img src={project.image2} className="project_image"/>
                         </div>
                         <div className="project_info">
                             <div className="project_title">{project.title}</div>
