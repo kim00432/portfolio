@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import { HiOutlineMenuAlt3 } from "react-icons/hi"
 import logo from '../../img/logo.png'
-// import './navbar.css'
+import './navbar.css'
 
 export default function Navbar() {
 
