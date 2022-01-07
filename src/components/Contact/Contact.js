@@ -8,13 +8,16 @@ export default function Contact() {
             <div className="section_header">
                 <label className="section_title">Contact</label>
             </div>
-            <div className='contact_text'>
-                <div>
-                    <h1 className="hi">Say Hi.</h1>
-                    <div>isyoonakim@gmail.com</div>
-                    <div>I love to make things.</div>
+            <div className="contact_container">
+                <div className="contact_inside_container">
+                    <h1 className="contact_hi">Say Hi.</h1>
+                    <img src={Photo} alt="photo" className="photo" />
                 </div>
-                <img src={Photo} alt="photo" className='photo' />
+                <div className="contact_inside_container2">
+                    <div className="contact_email">isyoonakim@gmail.com</div>
+                    <hr className='contact_line'></hr>
+                    <div className="contact_text">I love to make things.</div>
+                </div>
             </div>
         </div>
     )
