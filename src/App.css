@@ -36,7 +36,7 @@ section {
 }
 
 @media only screen and (max-width: 1017px) {
-  .section_header {
+  .projects .section_header {
     flex-direction: column;
   }
   .section_text {
