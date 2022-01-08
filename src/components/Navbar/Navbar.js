@@ -16,13 +16,16 @@ export default function Navbar() {
                 </div>
                 <div className="navbar_links">
                     <ul className="navbar_items">
-                    <a href="#about">
-                        <li className="navbar_item">ABOUT ME</li>
+                    <a href="/">
+                        <li className="navbar_item">HOME</li>
                     </a>
-                    <a href="#projects">
+                    <a href="/about">
+                        <li className="navbar_item">ABOUT</li>
+                    </a>
+                    <a href="/projects">
                         <li className="navbar_item">PROJECTS</li>
                     </a>
-                    <a href="#contact">
+                    <a href="/contact">
                         <li className="navbar_item">CONTACT</li>
                     </a>
                     </ul>
@@ -37,13 +40,16 @@ export default function Navbar() {
           {show? (
           <div className="sidebar_links">
             <ul className="sidebar_items">
-                <a href="#about" onClick={() => setShow(!show)}>
-                    <li className="sidebar_item">ABOUT ME</li>
+                <a href="/" onClick={() => setShow(!show)}>
+                    <li className="sidebar_item">HOME</li>
                 </a>
-                <a href="#projects" onClick={() => setShow(!show)}>
+                <a href="/about" onClick={() => setShow(!show)}>
+                    <li className="sidebar_item">ABOUT</li>
+                </a>
+                <a href="/projects" onClick={() => setShow(!show)}>
                     <li className="sidebar_item">PROJECTS</li>
                 </a>
-                <a href="#contact" onClick={() => setShow(!show)}>
+                <a href="/contact" onClick={() => setShow(!show)}>
                     <li className="sidebar_item">CONTACT</li>
                 </a>
               </ul>

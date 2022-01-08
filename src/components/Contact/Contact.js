@@ -4,6 +4,7 @@ import Photo from '../../img/photo.png'
 
 export default function Contact() {
     return (
+        <section id="contact">
         <div className="contact">
             <div className="section_header">
                 <label className="section_title">Contact</label>
@@ -20,5 +21,6 @@ export default function Contact() {
                 </div>
             </div>
         </div>
+        </section>
     )
 }
