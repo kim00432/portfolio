@@ -1,27 +1,36 @@
 import React from 'react'
-import Header from '../Header/Header'
-import About from '../About/About'
-import Contact from '../Contact/Contact'
-import Footer from '../Footer/Footer'
+import Typical from 'react-typical'
+import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa';
 import './home.css'
 
 export default function Home() {
     return (
         <div className="home" id="home">
-                <div className="header">
-                    <Header />
+            <div className="main">
+                <div className="name">Hi, my name is YOONA KIM.</div>
+                <div className="text">
+                    <div>I am...</div>
+                    <Typical 
+                        loop={Infinity} 
+                        steps={[
+                            "A Developer, Designer, and Creator.", 
+                            2000, 
+                            "An enthusiastic learner.", 
+                            2000, 
+                            "A person who enjoys solving problems.",
+                            2000
+                        ]}
+                    />
                 </div>
-                {/* <div className="body">
-                    <section id="about">
-                        <About />
-                    </section>
-                    <section id="contact">
-                        <Contact />
-                    </section>
-                </div> */}
-                {/* <section id="footer">
-                    <Footer />
-                </section> */}
+                <div className="socialMedia">
+                    <ul>
+                        <hr className="line"></hr>
+                        <a href="https://github.com/kim00432" target="_blank" rel="noreferrer" className='socialMedia_link'><li><FaGithub /></li></a>
+                        <a href="https://www.instagram.com/__yoonak/" target="_blank" rel="noreferrer" className='socialMedia_link'><li><FaInstagram /></li></a>
+                        <a href="https://www.linkedin.com/in/yoona-k" target="_blank" rel="noreferrer" className='socialMedia_link'><li><FaLinkedin /></li></a>
+                    </ul>
+                </div>
+            </div>
         </div>
     )
 }
