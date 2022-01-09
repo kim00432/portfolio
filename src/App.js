@@ -6,9 +6,15 @@ import Projects from './components/Projects/Projects'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 import { Switch, Route } from "react-router-dom"
-
+import { FaAngleUp } from "react-icons/fa"
 
 function App() {
+  //  Up To Top Btn
+  window.addEventListener("scroll", function(){
+  const upToTop = document.querySelector("a.bottom_to_top");
+      upToTop.classList.toggle("active", window.scrollY > 0)
+  })
+
   return (
     <div className="app">
       <Navbar />
@@ -19,6 +25,11 @@ function App() {
         <Route path="/contact" component={Contact} exact/>
       </Switch>
       <Footer />
+       <div className="btn_bottom_to_top">
+            <a href="#" className="bottom_to_top">
+              <FaAngleUp />
+            </a>
+        </div>
     </div>
   );
 }

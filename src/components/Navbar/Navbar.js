@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import { HiOutlineMenuAlt3 } from "react-icons/hi"
 import logo from '../../img/logo.png'
 import './navbar.css'
@@ -38,7 +38,7 @@ export default function Navbar() {
             </div>
           </div>
           {show? (
-          <div className="sidebar_links">
+              <div className="sidebar_links">
             <ul className="sidebar_items">
                 <a href="/" onClick={() => setShow(!show)}>
                     <li className="sidebar_item">HOME</li>
