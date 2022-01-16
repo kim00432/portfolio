@@ -1,43 +1,57 @@
-import Project1 from "../img/screenshots/project1.png"
-import Project2 from "../img/screenshots/project2.png"
-import Project3 from "../img/screenshots/project3.png"
-import Project4 from "../img/screenshots/project4.png"
+import { v4 as uuidv4 } from 'uuid'
+import GetWeather from "../img/screenshots/GetWeather.png"
+import MovieWeb from "../img/screenshots/MovieWeb.png"
+import PhoneDatabase from "../img/screenshots/PhoneDatabase.png"
+import EVsList from "../img/screenshots/EVsList.png"
+import UpCare from "../img/screenshots/UpCare.png"
+
 
 export const ProjectData = [
     {
-        id: 1,
-        title: "GetWeather",
-        description: "A weather HTML5 application based on a mobile first, responsive design using two third-party API services (OpenWeather and LocationIQ) to allow the user to look up weather forecasts for various locations.",
-        techs: ["HTML", "CSS", "Javascript"],
-        demo: "https://kim00432.github.io/GetWeather/",
-        github: "https://github.com/kim00432/GetWeather",
-        image: Project1
-    },
-    {
-        id: 2,
+        id: uuidv4(),
         title: "PhoneDatabase",
         description: "A react native app to allow the users to search any phone they want using Phone Specifications API",
         techs: ["React Native", "React Navigation", "Expo"],
         github: "https://github.com/kim00432/PhoneDatabase",
-        image: Project2
+        image: PhoneDatabase,
+        category:  ["all", "development"]
     },
     {
-        id: 3,
-        title: "Movie App",
-        description: "A simple Single Page Application using The MovieDB API. Users can search for the actor's name and then obtain the actors with the name as the result. Also, clicking on one of the actors displays the movie of the actor users clicked on.",
-        techs: ["HTML", "CSS", "Javascript"],
-        demo: "https://yoona-simplespa.netlify.app/",
-        image: Project3
+        id: uuidv4(),
+        title: "UpCare",
+        description: "A solution for in-home care services",
+        techs: ["Figma"],
+        demo: "https://www.figma.com/proto/h7GFUhed34Wk9rzkvbo16L/Final-prototype?node-id=1%3A20&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A20",
+        image: UpCare,
+        category:  ["all", "design"],
     },
     {
-        id: 4,
+        id: uuidv4(),
         title: "EV's List",
         description: "A react app using React plus Next.js to display a list of Electric vehicles",
         techs: ["React", "Next.js"],
         demo: "https://kim00432.github.io/GetWeather/",
         github: "https://github.com/kim00432/Evs-list",
-        image: Project4
+        image: EVsList,
+        category:  ["all", "development"]
     },
-
-
+    {
+        id: uuidv4(),
+        title: "GetWeather",
+        description: "A weather HTML5 application based on a mobile first, responsive design using two third-party API services (OpenWeather and LocationIQ) to allow the user to look up weather forecasts for various locations.",
+        techs: ["HTML", "CSS", "Javascript"],
+        demo: "https://kim00432.github.io/GetWeather/",
+        github: "https://github.com/kim00432/GetWeather",
+        image: GetWeather,
+        category: ["all", "development"]
+    },
+    {
+        id: uuidv4(),
+        title: "Movie App",
+        description: "A simple Single Page Application using The MovieDB API. Users can search for the actor's name and then obtain the actors with the name as the result. Also, clicking on one of the actors displays the movie of the actor users clicked on.",
+        techs: ["HTML", "CSS", "Javascript"],
+        demo: "https://yoona-simplespa.netlify.app/",
+        image: MovieWeb,
+        category:  ["all", "development"]
+    },
 ]

@@ -6,9 +6,9 @@ export default function About() {
     <div className="about">
         <div className="terminal-header">
             <div className="right-side-buttons">
-            <div className="close"></div>
-            <div className="minimize"></div>
-            <div className="full"></div>
+                <div className="close"></div>
+                <div className="minimize"></div>
+                <div className="full"></div>
             </div>
             <div className="title">
                 <div className="title_text">@About me</div>
