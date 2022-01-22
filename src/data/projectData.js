@@ -24,13 +24,13 @@ export const ProjectData = [
         demo: "https://www.figma.com/proto/h7GFUhed34Wk9rzkvbo16L/Final-prototype?node-id=1%3A20&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A20",
         image: UpCare,
         category:  ["all", "design"],
+        view: "upCare"
     },
     {
         id: uuidv4(),
         title: "EV's List",
         description: "A react app using React plus Next.js to display a list of Electric vehicles",
         techs: ["React", "Next.js"],
-        demo: "https://kim00432.github.io/GetWeather/",
         github: "https://github.com/kim00432/Evs-list",
         image: EVsList,
         category:  ["all", "development"]

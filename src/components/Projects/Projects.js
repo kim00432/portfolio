@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react'
 import { FaGithub, FaGlobe } from 'react-icons/fa'
-import { NavLink } from 'react-router-dom'
 import { ProjectData } from '../../data/projectData'
 import './projects.css'
 
@@ -9,7 +8,19 @@ export default function Projects() {
     const [category, setCategory] = useState("all")
     const [projects, setProjects] = useState([])
 
-    console.log(data)
+    const [modal, setModal] = useState(false);
+
+    const toggleModal = () => {
+        setModal(!modal);
+      };
+
+      if(modal) {
+        document.body.classList.add('active-modal')
+      } else {
+        document.body.classList.remove('active-modal')
+      }
+    
+
     useEffect(() => {setProjects(category)}, [])
     
     useEffect(() => {
@@ -61,6 +72,37 @@ export default function Projects() {
                             </div>
                         </div>
                         <div className="project_description">{item.description}</div>
+                        {item.view === "upCare" && 
+                        <div> 
+                            <div onClick={toggleModal} className="btn-modal">View more</div>
+
+                        {modal && (
+                                <div className="modal">
+                                <div onClick={toggleModal} className="overlay"></div>
+                                <div className="modal-content">
+                                <div className="terminal-header">
+                                    <div className="right-side-buttons">
+                                        <div className="close" onClick={toggleModal}>x</div>
+                                        <div className="minimize"></div>
+                                        <div className="full"></div>
+                                    </div>
+                                    <div className="title">
+                                        <div className="title_text">{item.title}</div>
+                                    </div>
+                                </div>
+                                    <h2>Hello Modal</h2>
+                                    <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+                                    perferendis suscipit officia recusandae, eveniet quaerat assumenda
+                                    id fugit, dignissimos maxime non natus placeat illo iusto!
+                                    Sapiente dolorum id maiores dolores? Illum pariatur possimus
+                                    quaerat ipsum quos molestiae rem aspernatur dicta tenetur. Sunt
+                                    placeat tempora vitae enim incidunt porro fuga ea.
+                                    </p>
+                                </div>
+                                </div>
+                            )}
+                        </div>}
                     </div>
                 </div>
               ) : '')}

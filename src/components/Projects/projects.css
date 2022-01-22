@@ -11,6 +11,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 1rem;
+  justify-content: space-around;
 }
 
 .project_card {
@@ -18,7 +19,6 @@
   flex-direction: column;
   margin: 16px 0px;
   padding: 20px;
-  width: 42.5vw;
   background-color: rgb(255, 255, 255);
   border-radius: 20px;
 }
@@ -44,8 +44,7 @@
   height: 30vh;
   display: flex;
   flex-wrap: wrap;
-  align-self: center;
-  align-items: flex-start;
+  align-items: center;
   overflow-y: hidden;
 }
 
@@ -130,11 +129,70 @@ a.my_github:hover {
   width: 120px;
   height: 35px;
   margin: 10px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
 }
 
 .category_button:hover {
   background-color: #086b9c;
   color: white;
+}
+
+/* Modal */
+body.active-modal {
+  overflow-y: hidden;
+}
+
+.btn-modal {
+  display: block;
+  font-size: 15px;
+}
+
+.modal,
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+}
+
+.modal {
+  z-index: 100;
+}
+.overlay {
+  background: rgba(49, 49, 49, 0.8);
+}
+.modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 1.4;
+  background: #f1f1f1;
+  /* padding: 14px 28px; */
+  border-radius: 3px;
+  width: 100vw;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.close-modal {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px 7px;
+}
+
+@media only screen and (min-width: 1300px) {
+  .project_card_container {
+    grid-template-columns: repeat(3, 30%);
+  }
+  .project_images {
+    height: 25vh;
+  }
 }
 
 @media only screen and (max-width: 940px) {
