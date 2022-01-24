@@ -148,6 +148,11 @@ body.active-modal {
   font-size: 15px;
 }
 
+.btn-modal:hover {
+  color: #f7a313;
+  cursor: pointer;
+}
+
 .modal,
 .overlay {
   width: 100vw;
@@ -166,6 +171,7 @@ body.active-modal {
 .overlay {
   background: rgba(49, 49, 49, 0.8);
 }
+
 .modal-content {
   position: absolute;
   top: 50%;

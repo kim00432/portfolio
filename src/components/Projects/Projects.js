@@ -74,7 +74,7 @@ export default function Projects() {
                         <div className="project_description">{item.description}</div>
                         {item.view === "upCare" && 
                         <div> 
-                            <div onClick={toggleModal} className="btn-modal">View more</div>
+                            <div onClick={toggleModal} className="btn-modal">View Details</div>
 
                         {modal && (
                                 <div className="modal">
