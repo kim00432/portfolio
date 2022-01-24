@@ -38,12 +38,12 @@ html {
 
 a.bottom_to_top {
   height: 50px;
-  width: 50px;
+  width: 80px;
   position: fixed;
   bottom: 3%;
   right: 2%;
   background-color: #5a5a5a63;
-  border-radius: 50%;
+  border-radius: 50px;
   cursor: pointer;
   display: none;
   align-items: center;
@@ -58,6 +58,10 @@ a.bottom_to_top.active {
 a.bottom_to_top:hover {
   background-color: #079df563;
   color: white;
+}
+
+.btn_text {
+  margin-left: 5px;
 }
 
 @media only screen and (max-width: 1017px) {

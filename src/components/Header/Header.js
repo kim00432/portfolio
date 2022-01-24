@@ -22,11 +22,17 @@ export default function Header() {
                 />
             </div>
             <div className="socialMedia">
+                <hr className="line"></hr>
                 <ul>
-                    <hr className="line"></hr>
-                    <a href="https://github.com/kim00432" target="_blank" rel="noreferrer" className='socialMedia_link'><li><FaGithub /></li></a>
-                    <a href="https://www.instagram.com/__yoonak/" target="_blank" rel="noreferrer" className='socialMedia_link'><li><FaInstagram /></li></a>
-                    <a href="https://www.linkedin.com/in/yoona-k" target="_blank" rel="noreferrer" className='socialMedia_link'><li><FaLinkedin /></li></a>
+                    <li> 
+                        <a href="https://github.com/kim00432" target="_blank" rel="noreferrer" className='socialMedia_link'><FaGithub /></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/__yoonak/" target="_blank" rel="noreferrer" className='socialMedia_link'><FaInstagram /></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/yoona-k" target="_blank" rel="noreferrer" className='socialMedia_link'><FaLinkedin /></a>
+                    </li>
                 </ul>
             </div>
     </div>

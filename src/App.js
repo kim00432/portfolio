@@ -18,6 +18,7 @@ function App() {
        <div className="btn_bottom_to_top">
             <a href="#" className="bottom_to_top">
               <FaAngleUp />
+              <div className='btn_text'>Top</div>
             </a>
         </div>
     </div>
