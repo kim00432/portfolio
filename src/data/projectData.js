@@ -4,6 +4,7 @@ import MovieWeb from "../img/screenshots/MovieWeb.png"
 import PhoneDatabase from "../img/screenshots/PhoneDatabase.png"
 import EVsList from "../img/screenshots/EVsList.png"
 import UpCare from "../img/screenshots/UpCare.png"
+import UpCareDetail from "../img/details/UpCare_detail.png"
 
 
 export const ProjectData = [
@@ -24,7 +25,8 @@ export const ProjectData = [
         demo: "https://www.figma.com/proto/h7GFUhed34Wk9rzkvbo16L/Final-prototype?node-id=1%3A20&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A20",
         image: UpCare,
         category:  ["all", "design"],
-        view: "upCare"
+        view: "upCare",
+        detail: UpCareDetail
     },
     {
         id: uuidv4(),

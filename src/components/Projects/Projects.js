@@ -82,7 +82,7 @@ export default function Projects() {
                                 <div className="modal-content">
                                 <div className="terminal-header">
                                     <div className="right-side-buttons">
-                                        <div className="close" onClick={toggleModal}>x</div>
+                                        <div className="close"></div>
                                         <div className="minimize"></div>
                                         <div className="full"></div>
                                     </div>
@@ -90,15 +90,9 @@ export default function Projects() {
                                         <div className="title_text">{item.title}</div>
                                     </div>
                                 </div>
-                                    <h2>Hello Modal</h2>
-                                    <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
-                                    perferendis suscipit officia recusandae, eveniet quaerat assumenda
-                                    id fugit, dignissimos maxime non natus placeat illo iusto!
-                                    Sapiente dolorum id maiores dolores? Illum pariatur possimus
-                                    quaerat ipsum quos molestiae rem aspernatur dicta tenetur. Sunt
-                                    placeat tempora vitae enim incidunt porro fuga ea.
-                                    </p>
+                                <div className="project_details">
+                                    <img src={item.detail} alt="projectDetails" className="project_details"/>
+                                </div>
                                 </div>
                                 </div>
                             )}

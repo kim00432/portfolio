@@ -151,7 +151,7 @@ body.active-modal {
 .modal,
 .overlay {
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   top: 0;
   left: 0;
   right: 0;
@@ -162,6 +162,7 @@ body.active-modal {
 .modal {
   z-index: 100;
 }
+
 .overlay {
   background: rgba(49, 49, 49, 0.8);
 }
@@ -174,9 +175,10 @@ body.active-modal {
   background: #f1f1f1;
   /* padding: 14px 28px; */
   border-radius: 3px;
-  width: 100vw;
+  width: 80vw;
   height: 100vh;
-  overflow-y: scroll;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 .close-modal {
@@ -184,6 +186,14 @@ body.active-modal {
   top: 10px;
   right: 10px;
   padding: 5px 7px;
+}
+
+.terminal-header {
+  height: 50px;
+}
+
+.project_details {
+  width: 100%;
 }
 
 @media only screen and (min-width: 1300px) {
@@ -230,5 +240,8 @@ body.active-modal {
   }
   .project_link_icon {
     font-size: 1.3rem;
+  }
+  .modal-content {
+    width: 90vw;
   }
 }
