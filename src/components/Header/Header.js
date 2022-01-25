@@ -6,7 +6,7 @@ import './header.css'
 export default function Header() {
     return (
     <div className="header">
-            <div className="name">Hi, my name is YOONA KIM.</div>
+        <div className="name">Hi, my name is YOONA KIM.</div>
             <div className="text">
                 <div>I am...</div>
                 <Typical 
@@ -20,21 +20,21 @@ export default function Header() {
                         2000
                     ]}
                 />
-            </div>
-            <div className="socialMedia">
-                <hr className="line"></hr>
-                <ul>
-                    <li> 
-                        <a href="https://github.com/kim00432" target="_blank" rel="noreferrer" className='socialMedia_link'><FaGithub /></a>
-                    </li>
-                    <li>
-                        <a href="https://www.instagram.com/__yoonak/" target="_blank" rel="noreferrer" className='socialMedia_link'><FaInstagram /></a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/yoona-k" target="_blank" rel="noreferrer" className='socialMedia_link'><FaLinkedin /></a>
-                    </li>
-                </ul>
-            </div>
+        </div>
+        <div className="socialMedia">
+            <hr className="line"></hr>
+            <ul>
+                <li> 
+                    <a href="https://github.com/kim00432" target="_blank" rel="noreferrer" className='socialMedia_link'><FaGithub /></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/__yoonak/" target="_blank" rel="noreferrer" className='socialMedia_link'><FaInstagram /></a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/yoona-k" target="_blank" rel="noreferrer" className='socialMedia_link'><FaLinkedin /></a>
+                </li>
+            </ul>
+        </div>
     </div>
     )
 }
