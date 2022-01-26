@@ -32,7 +32,7 @@ export default function About() {
             </div>
             <div className="statement">
                 <p className="input">Resume &gt; 
-                <span className="return"><a href="https://drive.google.com/file/d/1RTEzArInvQYa_3GSBx7oY-gOq4-5GRFF/view?ths=true">Yoonakim.pdf</a></span>
+                <span className="return"><a href="https://drive.google.com/file/d/1LMUECL6a_-syvUwA9Ful-GEVwtitRyGt/view?usp=sharing">Yoonakim.pdf</a></span>
                 </p>
             </div>
             <div className="statement">
