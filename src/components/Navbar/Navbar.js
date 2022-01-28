@@ -5,6 +5,12 @@ import './navbar.css'
 
 export default function Navbar() {
 
+    window.addEventListener('scroll', function () {
+        let navbar = document.querySelector('.navbar');
+        let windowPosition = window.scrollY > 0;
+        navbar.classList.toggle('scrolling-active', windowPosition);
+    })
+
     // Toggle menu
     const [show, setShow] = useState(false)
 
