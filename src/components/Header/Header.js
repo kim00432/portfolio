@@ -1,6 +1,7 @@
 import React from 'react'
 import Typical from 'react-typical'
-import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa'
+import { SiHashnode } from "react-icons/si"
 import './header.css'
 
 export default function Header() {
@@ -24,11 +25,14 @@ export default function Header() {
         <div className="socialMedia">
             <hr className="line"></hr>
             <ul>
-                <li> 
-                    <a href="https://github.com/kim00432" target="_blank" rel="noreferrer" className='socialMedia_link'><FaGithub /></a>
-                </li>
                 <li>
                     <a href="https://www.instagram.com/__yoonak/" target="_blank" rel="noreferrer" className='socialMedia_link'><FaInstagram /></a>
+                </li>
+                <li>
+                    <a href="https://yoona.hashnode.dev/" target="_blank" rel="noreferrer" className='socialMedia_link'><SiHashnode /></a>
+                </li>
+                <li> 
+                    <a href="https://github.com/kim00432" target="_blank" rel="noreferrer" className='socialMedia_link'><FaGithub /></a>
                 </li>
                 <li>
                     <a href="https://www.linkedin.com/in/yoona-k" target="_blank" rel="noreferrer" className='socialMedia_link'><FaLinkedin /></a>
