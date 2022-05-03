@@ -22,7 +22,7 @@ export default function About() {
             </div>
             <div className="statement">
                 <p className="input">Education &gt; 
-                <span className="return">&nbsp;Mobile application Design &amp; Development in algonquin college (Sep 2020 ~ present)</span>
+                <span className="return">&nbsp;Mobile application Design &amp; Development in algonquin college (Sep 2020 ~ May 2022)</span>
                 </p>
             </div>
             <div className="statement">
@@ -30,11 +30,11 @@ export default function About() {
                 <span className="return"><a href="mailto:isyoonakim@gmail.com">isyoonakim@gmail.com</a></span>
                 </p>
             </div>
-            <div className="statement">
+            {/* <div className="statement">
                 <p className="input">Resume &gt; 
-                <span className="return"><a href="https://drive.google.com/file/d/1LMUECL6a_-syvUwA9Ful-GEVwtitRyGt/view?usp=sharing">Yoonakim.pdf</a></span>
+                <span className="return"><a href="">Yoonakim.pdf</a></span>
                 </p>
-            </div>
+            </div> */}
             <div className="statement">
                 <p className="input">Skills/<b>Programming</b> &gt;
                 <span className="return">&nbsp;[ HTML/CSS, JavaScript, React/React native, PWAs, Node.js, Express, Firebase, APIs ]</span></p>
