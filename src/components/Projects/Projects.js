@@ -72,7 +72,7 @@ export default function Projects() {
                             </div>
                         </div>
                         <div className="project_description">{item.description}</div>
-                        {item.view === "upCare" && 
+                        {item.view === "upCare" &&
                         <div> 
                             <div onClick={toggleModal} className="btn-modal">View Details</div>
 
@@ -97,6 +97,10 @@ export default function Projects() {
                                 </div>
                             )}
                         </div>}
+                        {item.view === "balancedBrain" && 
+                        <a className="btn-modal" href="https://www.algonquincollege.com/arie/2022/03/balanced-brain/" target="_blank" rel="noreferrer" >
+                            View Details
+                        </a>}
                     </div>
                 </div>
               ) : '')}

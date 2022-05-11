@@ -146,11 +146,21 @@ body.active-modal {
 .btn-modal {
   display: block;
   font-size: 15px;
+  background-color: #000000;
+  border-radius: 5px;
+  width: 120px;
+  padding: 5px;
+  font-size: 13px;
+  color: white;
+  text-align: center;
+
 }
 
 .btn-modal:hover {
-  color: #f7a313;
+  background-color: #000000d8;
+  color: white;
   cursor: pointer;
+  font-style: bold;
 }
 
 .modal,

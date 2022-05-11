@@ -5,9 +5,19 @@ import PhoneDatabase from "../img/screenshots/PhoneDatabase.png"
 import EVsList from "../img/screenshots/EVsList.png"
 import UpCare from "../img/screenshots/UpCare.png"
 import UpCareDetail from "../img/details/UpCare_detail.png"
+import BalancedBrain from "../img/screenshots/BalancedBrain.png"
 
 
 export const ProjectData = [
+    {
+        id: uuidv4(),
+        title: "Balanced Brain",
+        description: "An innovative application that serves as a memory aid and motivational tool to help patients with mental health issues to develop healthy lifestyle changes.",
+        techs: ["Adobe XD"],
+        image: BalancedBrain,
+        category:  ["all", "design"],
+        view: "balancedBrain"
+    },
     {
         id: uuidv4(),
         title: "PhoneDatabase",
@@ -26,7 +36,6 @@ export const ProjectData = [
         image: UpCare,
         category:  ["all", "design"],
         view: "upCare",
-        detail: UpCareDetail
     },
     {
         id: uuidv4(),
