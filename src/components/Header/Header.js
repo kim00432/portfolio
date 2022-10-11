@@ -25,12 +25,12 @@ export default function Header() {
         <div className="socialMedia">
             <hr className="line"></hr>
             <ul>
-                <li>
+                {/* <li>
                     <a href="https://www.instagram.com/__yoonak/" target="_blank" rel="noreferrer" className='socialMedia_link'><FaInstagram /></a>
-                </li>
-                <li>
+                </li> */}
+                {/* <li>
                     <a href="https://yoona.hashnode.dev/" target="_blank" rel="noreferrer" className='socialMedia_link'><SiHashnode /></a>
-                </li>
+                </li> */}
                 <li> 
                     <a href="https://github.com/kim00432" target="_blank" rel="noreferrer" className='socialMedia_link'><FaGithub /></a>
                 </li>
