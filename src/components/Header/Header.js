@@ -7,7 +7,7 @@ import './header.css'
 export default function Header() {
     return (
     <div className="header">
-        <div className="name">Hi, my name is YOONA KIM.</div>
+        <div className="name">Hi, my name is <span>Yoona Kim</span>.</div>
             <div className="text">
                 <div>I am...</div>
                 <Typical 

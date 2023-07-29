@@ -51,7 +51,7 @@ export const ProjectData = [
         title: "GetWeather",
         description: "A weather HTML5 application based on a mobile first, responsive design using two third-party API services (OpenWeather and LocationIQ) to allow the user to look up weather forecasts for various locations.",
         techs: ["HTML", "CSS", "Javascript"],
-        demo: "https://kim00432.github.io/GetWeather/",
+        // demo: "https://get-weatherapp.netlify.app",
         github: "https://github.com/kim00432/GetWeather",
         image: GetWeather,
         category: ["all", "development"]
