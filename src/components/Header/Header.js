@@ -1,7 +1,6 @@
 import React from 'react'
 import Typical from 'react-typical'
-import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa'
-import { SiHashnode } from "react-icons/si"
+import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import './header.css'
 
 export default function Header() {

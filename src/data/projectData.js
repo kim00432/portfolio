@@ -4,7 +4,7 @@ import MovieWeb from "../img/screenshots/MovieWeb.png"
 import PhoneDatabase from "../img/screenshots/PhoneDatabase.png"
 import EVsList from "../img/screenshots/EVsList.png"
 import UpCare from "../img/screenshots/UpCare.png"
-import UpCareDetail from "../img/details/UpCare_detail.png"
+// import UpCareDetail from "../img/details/UpCare_detail.png"
 import BalancedBrain from "../img/screenshots/BalancedBrain.png"
 
 

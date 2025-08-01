@@ -21,13 +21,13 @@ export default function Projects() {
       }
     
 
-    useEffect(() => {setProjects(category)}, [])
+    useEffect(() => {setProjects(category)}, [category])
     
     useEffect(() => {
         setProjects([])
         const filtered = data.map(p => ({ ...p, filtered: p.category.includes(category) }))
         setProjects(filtered);
-    }, [category])
+    }, [category, data])
 
     return (
         <div className="projects">
