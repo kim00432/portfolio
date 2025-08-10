@@ -34,7 +34,7 @@ export default function Header() {
                     <a href="https://github.com/kim00432" target="_blank" rel="noreferrer" className='socialMedia_link'><FaGithub /></a>
                 </li>
                 <li>
-                    <a href="https://www.linkedin.com/in/yoona-k" target="_blank" rel="noreferrer" className='socialMedia_link'><FaLinkedin /></a>
+                    <a href="https://www.linkedin.com/in/itsyoona" target="_blank" rel="noreferrer" className='socialMedia_link'><FaLinkedin /></a>
                 </li>
             </ul>
         </div>

@@ -27,7 +27,7 @@ export default function About() {
             </div>
             <div className="statement">
                 <p className="input">Contact &gt; 
-                <span className="return"><a href="mailto:isyoonakim@gmail.com">isyoonakim@gmail.com</a></span>
+                <span className="return"><a href="mailto:itsyoona.dev@gmail.com">itsyoona.dev@gmail.com</a></span>
                 </p>
             </div>
             {/* <div className="statement">

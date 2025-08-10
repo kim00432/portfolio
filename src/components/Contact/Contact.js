@@ -14,7 +14,7 @@ export default function Contact() {
                     <img src={Photo} alt="contact_photo" className="contact_photo" />
                 </div>
                 <div className="contact_inside_container2">
-                    <div className="contact_email">isyoonakim@gmail.com</div>
+                    <div className="contact_email">itsyoona.dev@gmail.com</div>
                     <hr className='contact_line'></hr>
                     <div className="contact_text">Feel free to reach out if you want to work together, have a question, or just want to connect.</div>
                 </div>
